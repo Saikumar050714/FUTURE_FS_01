@@ -15,7 +15,7 @@ export default function Resume() {
 
                 <div className="resume-actions reveal" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginTop: '40px' }}>
                     <a 
-                        href="/MyResume.pdf" 
+                        href={`${import.meta.env.BASE_URL}MyResume.pdf`} 
                         target="_blank" 
                         rel="noreferrer" 
                         className="btn btn-primary"
@@ -23,7 +23,7 @@ export default function Resume() {
                         <HiEye style={{ marginRight: '8px' }} /> View Resume
                     </a>
                     <a 
-                        href="/MyResume.pdf" 
+                        href={`${import.meta.env.BASE_URL}MyResume.pdf`} 
                         download 
                         className="btn btn-secondary"
                     >

@@ -15,6 +15,11 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License" />
 </p>
 
+<p align="center">
+  <strong>🌍 Live Demo:</strong> <a href="https://Saikumar050714.github.io/FUTURE_FS_01/">View Portfolio Here</a> <br/>
+  <strong>👤 GitHub Profile:</strong> <a href="https://github.com/Saikumar050714">@Saikumar050714</a>
+</p>
+
 ---
 
 ## ✨ Features

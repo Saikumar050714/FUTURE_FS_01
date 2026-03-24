@@ -58,7 +58,7 @@ export default function About() {
                             <a href="#contact" className="btn btn-primary" onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}>
                                 <HiMail /> Contact Me
                             </a>
-                            <a href="/MyResume.pdf" className="btn btn-secondary" download>
+                            <a href={`${import.meta.env.BASE_URL}MyResume.pdf`} className="btn btn-secondary" download>
                                 <HiDownload /> Download CV
                             </a>
                         </div>
